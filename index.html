@@ -1,35 +1,109 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">	
-	    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title> Women's paradise </title> 
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<body>
-		<header>
-			<nav id="header-nav" class="navbar navbar-default">
-				<div class="container">
-					<div class="navbar-header">
-						<a href="index.html" class="pull-left visible-md visible-lg">
-							<div id="logo-img" alt="Logo image"></div>
-						</a>
 
-						<div class="navbar-brand">
-						<a href="index.html"><h1>Women's paradise</h1></a>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</header>
+    <title>Women's paradise</title>
+    <!--bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--custom-->
+     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"></a>
+      </div>
 
-		<script src="js/jquery-2.1.4.min.js"></script>
-  		<script src="js/bootstrap.min.js"></script>
-  		<script src="js/script.js"></script>
+    
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Western</a></li>
+          <li><a href="#">Indian</a></li>
+          <li><a href="#">Accessories</a></li>  
+        </ul>
+        
+        <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
 
- 	</body>
+        <!--Icons-->
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="Cart"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+          <li class="dropdown user">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="log-in"><a href="#">Log-in</a></li>
+              <li class="Register"><a href="#">Register</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!--icons-->
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <header class="container-fluid">
+    <div class="row">
+      <img src="images/design.jpg" alt="Shopping" class="picture">
+      <h2> DESIGN, IMAGINE, CREATE, SHOP </h2>
+        
+    </div>
+  </header>
+
+  <div class="main-content container">
+    <div class="row">
+
+    <div class="Design">
+      <h3> DESIGN </h3>
+      <h4> Fashion design is an exciting, constantly evolving field. It also takes a lot of work, and can be incredibly competitive. Design custom clothing for yourself and your team, group or event online.</h4>
+    </div>
+
+    <hr>
+
+    <div class="blog">
+    <h3> SHOP </h3>
+
+      <div class="row">
+      <div class="col-md-6">
+
+      <img src="images/indian.jpg" class="img-responsive">
+      <h4>Indian wear</h4>
+      <p>India is known for its diversity the all over the globe. Ethnic clothing is just one of the things that distinguish one part of India from the other. The traditional Indian attire has earned admirers from people from all over to organizations like UNESCO. Clothing in India varies depending on the different ethnicity, geography, climate and cultural traditions of the people of each region of India. </p>
+      </div>
+
+      <div class="col-md-6">
+
+      <img src="images/western.jpg" class="img-responsive">
+      <h4>Western wear</h4>
+      <p>Western wear is a category of men's and women's clothing which derives its unique style from the clothes worn in the 19th-century American West. It ranges from accurate historical reproductions of pioneer, mountain man, Civil War, cowboy and vaquero clothing to the stylized garments popularized by singing cowboys such as Gene Autry and Roy Rogers in the 1940s and 1950s.</p>
+      </div>
+
+    </div>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
